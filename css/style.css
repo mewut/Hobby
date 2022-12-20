@@ -1,14 +1,24 @@
-html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
-    -webkit-font-smoothing: antialiased;
+.page{
+    max-width: 1200px;
+}
+
+header{
+    border: 1px;
+    height: 100px;
+    width: 100%;
+    background-color: #CD5C5C;
+    align-items: center;
+}
+
+.inner-header{
+    width: 100%;
 }
 
 body {
 margin: 0;
 font-family: Helvetica;
 }
-
+  
 .topnav {
 display: flex;
 flex-direction: row;
@@ -90,4 +100,4 @@ margin-left: 3mm;
 align-items: flex-start;
 justify-content: center;
 font-size: 30px;
-}*/
+}
